@@ -3,10 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Page</title>
+    <title>Resume - Saurabh Jaiswal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #004e92, #000428);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+        header a {
+            color: #00d9ff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .section:last-child {
+            border-bottom: none;
+        }
+        .section h2 {
+            margin: 0 0 10px;
+            font-size: 1.8em;
+            color: #004e92;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin: 10px 0;
+        }
+        .section ul li span {
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
-    <h1>It Works!</h1>
-    <p>If you see this, the issue is not with your browser or system.</p>
+    <header>
+        <h1>Saurabh Jaiswal</h1>
+        <p>MTech AI, Stochastic Systems Lab, IISc</p>
+        <p>Email: <a href="mailto:saurbhjaiswl@gmail.com">saurbhjaiswl@gmail.com</a> | Phone: +91-8433213381</p>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li><span>Languages:</span> Python</li>
+                <li><span>Libraries:</span> Numpy, Pandas, Matplotlib, TensorFlow, PyTorch</li>
+                <li><span>Algorithms:</span> Regression, SVM, CNNs, RNNs</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>2019-2021: <a href="https://www.iisc.ac.in" target="_blank">Indian Institute of Science Bangalore</a> - MTech in Artificial Intelligence</li>
+                <li>2013-2017: <a href="https://www.nitjsr.ac.in" target="_blank">National Institute of Technology Jamshedpur</a> - BTech in Electrical and Electronics Engineering</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Internship</h2>
+            <ul>
+                <li>Flipkart (2020): Data Science Intern (Fulfillment Services Group)
+                    <ul>
+                        <li>Geocoding of textual addresses</li>
+                        <li>Modeled using Uber's H3 library</li>
+                        <li>FastText embeddings for classification model</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>Real-Time Text Detection OCR (2021): Designed YOLO-based system</li>
+                <li>Video Prediction using Optical Flow (2021): Predicted video frames using FlowNet</li>
+                <li>Signature Verification (2021): Trained Siamese Networks using ICDAR 2011 dataset</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>IIT Bombay (2021): Research Scholar in Signal Processing
+                    <ul>
+                        <li>TA for Signals and Systems</li>
+                    </ul>
+                </li>
+                <li>UHBVNL (2017): Sub Divisional Officer</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Saurabh Jaiswal | All Rights Reserved
+    </footer>
 </body>
 </html>
