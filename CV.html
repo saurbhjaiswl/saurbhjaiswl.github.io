@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,160 +11,58 @@
             padding: 0;
             background-color: #f4f4f9;
         }
-
         .header {
             background: linear-gradient(to right, #1abc9c, #16a085);
             color: white;
             text-align: center;
             padding: 50px 20px;
         }
-
         .header h1 {
-            margin: 0;
             font-size: 2.5em;
         }
-
-        .header p {
-            margin: 10px 0;
+        .header p, .header a {
             font-size: 1.2em;
         }
-
-        .header a {
-            display: inline-block;
-            text-decoration: none;
-            color: white;
-            border: 2px solid white;
-            border-radius: 5px;
-            padding: 10px 20px;
-            margin: 10px;
-            font-size: 1em;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .header a:hover {
-            background-color: white;
-            color: #16a085;
-        }
-
         .container {
-            width: 85%;
-            margin: auto;
-            padding: 20px 0;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
         }
-
         .section {
-            margin: 20px 0;
+            margin-bottom: 20px;
             padding: 10px;
-            border-radius: 5px;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
-
         .section-title {
             font-size: 1.5em;
             color: #2c3e50;
             margin-bottom: 10px;
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 5px;
-        }
-
-        .interactive {
-            transition: transform 0.3s, background-color 0.3s;
-            border-radius: 5px;
-            padding: 10px;
-            position: relative;
-            overflow: hidden;
-            background-color: #ecf0f1;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        }
-
-        .interactive:hover {
-            transform: scale(1.03);
-            background-color: #dfe6e9;
-            z-index: 1;
-        }
-
-        a {
-            color: #2980b9;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-
-        ul li {
-            margin: 5px 0;
         }
     </style>
 </head>
-
 <body>
     <div class="header">
         <h1>Saurabh Jaiswal</h1>
-        <p>MTech AI, Stochastic Systems Lab, IISc</p>
-        <p>Email: <a href="mailto:saurbhjaiswl@gmail.com" style="color:white;">saurbhjaiswl@gmail.com</a> | Phone: +91-8433213381</p>
-        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-        <a href="https://github.com" target="_blank">GitHub</a>
+        <p>MTech AI, IISc Bangalore</p>
+        <p>Email: <a href="mailto:saurbhjaiswl@gmail.com" style="color: white;">saurbhjaiswl@gmail.com</a></p>
     </div>
-
     <div class="container">
-        <div class="section interactive">
+        <div class="section">
             <div class="section-title">Skills</div>
             <ul>
-                <li><strong>Languages:</strong> Python</li>
-                <li><strong>Libraries:</strong> Numpy, Pandas, Matplotlib, TensorFlow, PyTorch</li>
-                <li><strong>Algorithms:</strong> Regression, SVM, CNNs, RNNs</li>
+                <li>Python, TensorFlow, PyTorch</li>
+                <li>Regression, SVM, CNNs</li>
             </ul>
         </div>
-
-        <div class="section interactive">
+        <div class="section">
             <div class="section-title">Education</div>
             <ul>
-                <li>
-                    2019-2021: <a href="https://iisc.ac.in/" target="_blank">Indian Institute of Science Bangalore</a> - 
-                    MTech in <a href="https://iisc.ac.in/mtech-artificial-intelligence/" target="_blank">Artificial Intelligence</a>
-                </li>
-                <li>
-                    2013-2017: <a href="https://www.nitjsr.ac.in/" target="_blank">National Institute of Technology Jamshedpur</a> - 
-                    BTech in Electrical and Electronics Engineering
-                </li>
-            </ul>
-        </div>
-
-        <div class="section interactive">
-            <div class="section-title">Internship</div>
-            <ul>
-                <li><strong>Flipkart (2020):</strong> Data Science Intern (Fulfillment Services Group)</li>
-                <li>Geocoding of textual addresses</li>
-                <li>Modeled using Uber's H3 library</li>
-                <li>FastText embeddings for classification model</li>
-            </ul>
-        </div>
-
-        <div class="section interactive">
-            <div class="section-title">Projects</div>
-            <ul>
-                <li><strong>Real-Time Text Detection OCR (2021):</strong> Designed YOLO-based system</li>
-                <li><strong>Video Prediction using Optical Flow (2021):</strong> Predicted video frames using FlowNet</li>
-                <li><strong>Signature Verification (2021):</strong> Trained Siamese Networks using ICDAR 2011 dataset</li>
-            </ul>
-        </div>
-
-        <div class="section interactive">
-            <div class="section-title">Work Experience</div>
-            <ul>
-                <li><strong>IIT Bombay (2021):</strong> Research Scholar</li>
-                <li>Research in Signal Processing</li>
-                <li>TA for Signals and Systems</li>
-                <li><strong>UHBVNL (2017):</strong> Sub Divisional Officer</li>
+                <li>IISc Bangalore, MTech AI</li>
+                <li>NIT Jamshedpur, BTech EEE</li>
             </ul>
         </div>
     </div>
 </body>
-
 </html>
